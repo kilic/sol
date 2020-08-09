@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "pretty": true,
+    "lib": ["es6"],
+    "typeRoots": ["./node_modules/@types", "./types/ethers-contracts"],
+
+    "outDir": "lib/",
+    "rootDir": ".",
+    "declarationDir": "lib/",
+    "noImplicitAny": false
+  },
+  "include": ["./test/**/*.ts"],
+  "exclude": ["node_modules", "lib"]
+}
