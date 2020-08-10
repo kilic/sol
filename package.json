@@ -21,6 +21,7 @@
     "build": "tsc",
     "ganache": "ganache-cli -d -l 10000000",
     "test:tree:sol": "mocha -r ts-node/register test/mt/sol.test.ts",
-    "test:tree:asm": "mocha -r ts-node/register test/mt/asm.test.ts"
+    "test:tree:asm": "mocha -r ts-node/register test/mt/asm.test.ts",
+    "test:lookup": "mocha -r ts-node/register test/lookup/lookup16.test.ts"
   }
 }

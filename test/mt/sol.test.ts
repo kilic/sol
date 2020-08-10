@@ -7,13 +7,11 @@ const facroryTreePure = new TreePureFactory(wallet);
 
 import { assert } from 'chai';
 
-const STATE_DEPTH: number = 32;
-
 function rand32(): string {
   return utils.hexlify(utils.randomBytes(32));
 }
 
-describe('Fraud Proof Tree Utils', () => {
+describe('Tree in Sol', () => {
   let C: TreePure;
   before(async function () {
     C = await facroryTreePure.deploy();

@@ -13,7 +13,7 @@ function rand32(): string {
   return utils.hexlify(utils.randomBytes(32));
 }
 
-describe('Asm', () => {
+describe('Tree in Asm', () => {
   let C: Asm;
   before(async function () {
     C = await factoryAsm.deploy();
