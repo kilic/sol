@@ -1,9 +1,6 @@
 pragma solidity ^0.6.10;
 
 contract Lookup {
-  mapping(uint256 => bytes32) _storage;
-  uint256 index = 1;
-
   function lookupFieldAt0(
     bytes32 root,
     bytes32 field,
